@@ -2,7 +2,7 @@
   hosts: web
   become: yes
   tasks: #install nginx
-  - name: nginx installation
+  - name: nginx 
     ansible.builtin.dnf:
     state: latest
     tasks: #install nginx
