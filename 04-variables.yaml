@@ -6,6 +6,6 @@
     duration: 120hrs
   tasks: 
   - name: print the information
-    ansible.builtin.debug
+    ansible.builtin.debug:
       msg: "I am learning {{course}} by {{trainer}} with {{duration}}." 
 
