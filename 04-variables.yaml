@@ -7,5 +7,5 @@
   tasks: 
   - name: print the information
     ansible.builtin.debug
-       msg: "I am learning {{course}} by {{trainer}} with {{duration}}." 
+      msg: "I am learning {{course}} by {{trainer}} with {{duration}}." 
 
