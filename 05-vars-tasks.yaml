@@ -1,18 +1,18 @@
 - name: variables
   hosts: localhost
-  vars: 
+  vars: #vars declartion
     course: "terraform"
     trianer: "sivakumar"
     duration: "120hrs"
   tasks: 
   - name: print override information
-    vars:
+    vars: #tasks level variables
       course:  "AWS"
     ansible.builtin.debug:
       msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{durtaion}}."
 
- - name: print information
-   ansible.builtin.debug:
-     msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{durtaion}}."
+  - name: print information
+    ansible.builtin.debug:
+      msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{durtaion}}."
 
   
