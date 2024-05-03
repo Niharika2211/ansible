@@ -3,7 +3,7 @@
   vars: 
     vars.yaml
     
- tasks:
- - name: print inforamation
-   ansible.builtin.debug:
-     msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{duration}}."
+  tasks:
+  - name: print inforamation
+    ansible.builtin.debug:
+      msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{duration}}."
