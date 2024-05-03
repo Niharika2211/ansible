@@ -10,4 +10,4 @@
   tasks: 
   - name: print information
     ansible.builtin.debug:
-      msg: "hi i am learning {{course}} from {{trainer}} by duration {{duration}}"
+      msg: "hi user {{USERNAME}} your password is {{PASSWORD}}.""
