@@ -2,7 +2,7 @@
   hosts: localhost
   vars: #vars declartion
     course: "terraform"
-    trianer: "sivakumar"
+    trainer: "sivakumar"
     duration: "120hrs"
   tasks: 
   - name: print override information
