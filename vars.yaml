@@ -1,4 +1,3 @@
-vars: #vars declartion
     course: "terraform"
     trainer: "sivakumar"
     duration: "120hrs"
