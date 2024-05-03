@@ -8,6 +8,6 @@
     prompt: please enter your password
     private: True
   task: 
-  -name: print information
-     ansible.builtin.debug:
-       msg: "hi i am learning {{course}} from {{trainer}} by duration {{duration}}"
+  - name: print information
+    ansible.builtin.debug:
+      msg: "hi i am learning {{course}} from {{trainer}} by duration {{duration}}"
