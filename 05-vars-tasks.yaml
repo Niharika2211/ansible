@@ -1,0 +1,21 @@
+- name: variables from task
+  hosts: localhost
+  vars: 
+    course: "terraform"
+    trianer: "sivakumar"
+    duration: "120hrs"
+  tasks: print variables
+    vars: "AWS"
+    ansible.builtin.debug
+    msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{durtaion}}."
+- name: variables from task
+  hosts: localhost
+  vars: 
+    course: "terraform"
+    trianer: "sivakumar"
+    duration: "120hrs"
+  tasks: print variables
+    ansible.builtin.debug
+    msg: "hi iam learning {{course}} course from trainer {{trainer}} duration is {{durtaion}}."
+
+  
