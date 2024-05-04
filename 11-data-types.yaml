@@ -3,9 +3,9 @@
   vars:
     Course: AWSDEVOPS
     Tools:
-     - linux
-     - aws
-     - terraform
+    - linux
+    - aws
+    - terraform
     Experience: 
       Devops: 1
       linux: 2
