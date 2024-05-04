@@ -10,8 +10,8 @@
       Devops: 1
       linux: 2
       aws: 3
-    Realtime project: True
+    Realtime-project: True
   tasks:
   - name: print variables
     ansible.buitlin.debug:
-      msg: "started course {{Course}}, with these {{Tools}}, for exp {{Experience}}, it is a {{Realtime project}}." 
+      msg: "started course {{Course}}, with these {{Tools}}, for exp {{Experience}}, it is a {{Realtime-project}}." 
