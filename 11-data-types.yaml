@@ -1,7 +1,6 @@
 - name: datatypes
   hosts: localhost
   vars:
-  - name: print datatypes
     Course: AWSDEVOPS
     Tools:
      - linux
