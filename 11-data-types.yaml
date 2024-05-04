@@ -14,4 +14,4 @@
   tasks:
   - name: print variables
     ansible.buitlin.debug:
-      msg: "started course {{Course}}, with these {{Tools}}, for exp {{Experience}}, it is a {{Realtimeproject}}." 
+      msg: "started course: {{Course}}, with these: {{Tools}}, for exp: {{Experience}}, it is a:{{Realtimeproject}}." 
