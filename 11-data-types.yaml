@@ -1,0 +1,18 @@
+- name: datatypes
+  hosts: localhost
+  vars:
+  - name: print datatypes
+    Course: AWSDEVOPS
+    Tools:
+    - linux
+    - aws
+    - terraform
+    Experience: 
+      Devops: 1
+      linux: 2
+      aws: 3
+    Realtime project: True
+  tasks:
+  - name: print variables
+    ansible.buitlin.debug:
+      msg: "started course {{Course}}, with these {{Tools}}, for exp {{Experience}}, it is a {{Realtime project}}." 
