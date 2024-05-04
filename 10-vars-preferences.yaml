@@ -13,7 +13,7 @@
     private: False 
   tasks:
   - name: vars from preferences
-      vars:
+    vars:
       NAME: "sridevi from tasks"
       WISHES: "morning from sridevi tasks"
     ansible.builtin.debug:
