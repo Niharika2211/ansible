@@ -1,5 +1,5 @@
     course: "Devops with aws"
     trainer: "sivakumar"
     duration: "120hrs"
-    NAME="Niharika from varsfile"
-    WISHES="morning from varsfile"
+    NAME: "Niharika from varsfile"
+    WISHES: "morning from varsfile"
