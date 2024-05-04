@@ -3,8 +3,6 @@
   vars:
     NAME: "sita from play var"
     WISHES: "morning from PLAY variable"
-  vars_files:
-  - vars.yaml
   tasks:
   - name: vars from preferences
     ansible.builtin.debug:
