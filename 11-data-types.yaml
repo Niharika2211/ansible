@@ -3,15 +3,15 @@
   vars:
     Course: AWSDEVOPS
     Tools:
-    - linux
-    - aws
-    - terraform
+    - Linux
+    - Aws
+    - Terraform
     Experience: 
       Devops: 1
-      linux: 2
-      aws: 3
+      Linux: 2
+      Aws: 3
     Realtimeproject: true
   tasks:
   - name: print variables
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "started course: {{Course}}, with these: {{Tools}}, for exp: {{Experience}}, it is a:{{Realtimeproject}}." 
