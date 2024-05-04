@@ -1,5 +1,8 @@
 - name: variables preferences
   hosts: localhost
+  vars: 
+    NAME: "SITA from play"
+    WISHES: "monring from play"
   tasks:
   - name: vars from preferences
     ansible.builtin.debug:
