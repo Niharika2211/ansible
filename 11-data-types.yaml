@@ -1,13 +1,13 @@
 - name: datatypes
   hosts: localhost
   vars:
-    - name: print datatypes
-      Course: AWSDEVOPS
-      Tools:
+  - name: print datatypes
+    Course: AWSDEVOPS
+    Tools:
      - linux
      - aws
      - terraform
-     Experience: 
+    Experience: 
       Devops: 1
       linux: 2
       aws: 3
