@@ -74,5 +74,3 @@ Ansible is widely adopted because it is:
 > "Yes, I used Ansible for provisioning EC2 instances on AWS. We used dynamic inventory via EC2 tags and playbooks to automate the entire application stack: nginx, Python, PostgreSQL. Roles were created for reusable components like monitoring and log rotation. We also used Ansible Vault for securing database credentials."
 
 ---
-
-Feel free to contribute more or expand each section!
