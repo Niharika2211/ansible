@@ -51,9 +51,6 @@ Popular CM tools include:
 - **Ansible** (agentless, YAML, SSH-based)
 - **Chef** (Ruby DSL, client-server model)
 - **Puppet** (declarative language, agent-based)
-- **SaltStack** (Python, scalable event-driven automation)
-- **Rundeck** (orchestration and job scheduling)
-
 ---
 
 ## 💡 Why Ansible?
