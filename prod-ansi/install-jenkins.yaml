@@ -1,0 +1,31 @@
+---
+- hosts: localhost
+  connection: ssh
+  become: yes
+
+
+  tasks: 
+    - name: links from jenkins.io
+      get_url:
+          url: https://pkg.jenkins.io/redhat-stable/jenkins.repo
+          dest: /etc/yum.repos.d/jenkins.repo
+
+    - name: import key from jenkin.io
+      ansible.builtin.rpm.key:
+        state: present
+        key: https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+    - name: install java
+      ansible.build.command:  yum install java-17-amazon-corretto -y
+
+    - name: jenkins installation
+      ansible.builtin.command: yum install jenkins -y
+
+    - name: restart jenkins 
+      ansible.builtin.service:
+      name: jenkins
+      state: restarted
+      enabled: yes
+
+  
+
