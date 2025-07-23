@@ -16,7 +16,7 @@
         key: https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
     - name: install java
-      ansible.build.command:  yum install java-17-amazon-corretto -y
+      ansible.builtin.command:  yum install java-17-amazon-corretto -y
 
     - name: jenkins installation
       ansible.builtin.command: yum install jenkins -y
