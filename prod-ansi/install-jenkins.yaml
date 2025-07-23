@@ -10,7 +10,7 @@
           url: https://pkg.jenkins.io/redhat-stable/jenkins.repo
           dest: /etc/yum.repos.d/jenkins.repo
 
-    - name: import key from jenkin.io
+    - name: import key from jenkins.io
       ansible.builtin.rpm.key:
         state: present
         key: https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
