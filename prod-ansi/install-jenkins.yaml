@@ -23,9 +23,9 @@
 
     - name: restart jenkins 
       ansible.builtin.service:
-      name: jenkins
-      state: restarted
-      enabled: yes
+        name: jenkins
+        state: restarted
+        enabled: yes
 
   
 
