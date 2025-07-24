@@ -1,0 +1,21 @@
+---
+- name: securely cp the pem file in servers
+  hosts: PORD
+  become: yes
+  tasks: 
+    - name: copy the pem to servers
+      ansible.builtin.copy:
+        src: deps.pem
+        dest: /ec2-user/home
+        owner: ec2-user
+        group: ec2-user
+        mode: '0400'
+      vars: 
+         ansible_become_password: "{vault_become_password | default('') }}"    
+      
+      
+      
+
+
+    
+
