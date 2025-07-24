@@ -5,8 +5,8 @@
   tasks: 
     - name: copy the pem to servers
       ansible.builtin.copy:
-        src: deps.pem
-        dest: /ec2-user/home
+        src: /home/ec2-user/.ssh/deps.pem
+        dest: /home/ec2-user/deps.pem
         owner: ec2-user
         group: ec2-user
         mode: '0400'
