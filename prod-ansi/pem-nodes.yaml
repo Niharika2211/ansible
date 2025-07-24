@@ -1,6 +1,6 @@
 ---
 - name: securely cp the pem file in servers
-  hosts: PORD
+  hosts: PROD
   become: yes
   tasks: 
     - name: copy the pem to servers
