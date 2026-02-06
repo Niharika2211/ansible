@@ -1,7 +1,5 @@
     #!/bin/bash
 
-
-
     # update 
     sudo yum update -y
 
